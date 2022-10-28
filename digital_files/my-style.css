@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+    header .elementor-element {
+            text-align: center;
+            justify-content: center;
+        }
+    
+        header .elementor-element .elementor-widget-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: max-content;
+            background-color: rgba(0,0,0,0.8);
+        }
+}
+
+@media screen and (max-width: 670px) {
+    #resume .elementor-widget-container {
+        margin-top: -7%;
+    }
+}
+
